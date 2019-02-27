@@ -1,0 +1,60 @@
+.topBar {
+  grid-area: top;
+  flex-direction: row;
+  display: flex;
+  background-color: #DDD;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+
+    button {
+      color: #000; 
+      width: 48px;
+      height: 48px;
+        
+      .ms-Button-menuIcon {
+        font-size: 16px;
+      }
+    }
+
+    .titleLogo {
+      font-size: 16px;
+      font-weight: 600;
+      padding-left: 6px;
+      @media (min-width: 400) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .headerRight {
+    display: flex;
+    align-items: center;
+
+    button {
+      color: #fff; 
+      width: 48px;
+      height: 48px;
+      display: none;
+      
+      @media (min-width: 375) {
+        display: flex;
+      }
+
+      div i {
+        font-size: 16px;
+      }
+    }
+
+    .headerRightPersona {
+      align-items: center;
+      display: block;
+      margin: 0 16px 0 8px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.topBar {
+    grid-area: top;
+    flex-direction: row;
+    display: flex;
+    background-color: #0078D4;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+  
+.topBar .headerLeft {
+      display: flex;
+      align-items: center;
+}
+.topBar .headerLeft button {
+        color: #fff; 
+        width: 48px;
+        height: 48px;
+          
+}
+  
+.topBar .headerLeft .titleLogo {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 6px;
+}
+    
+.temp-nav-height{
+height: 100vh;
+}
+.topBar .headerRight {
+  display: flex;
+  align-items: center;
+}
+.topBar .headerRight button {
+  color: #fff; 
+  width: 48px;
+  height: 48px;
+  display: none;
+}
+  
+.topBar .headerRight .headerRightPersona {
+  align-items: center;
+  display: block;
+  margin: 0 16px 0 8px;
+}
+.topBar .headerCenter{
+  display: flex;
+  width: 300px;
+}
+.topBar .ms-SearchBox {
+  background-color: rgba(255,255,255,.2);
+  width: 100%;
+  border-radius: 2px;
+  border: initial;
+}
+.topBar .ms-SearchBox-iconContainer,
+      .ms-SearchBox-field,
+      .ms-SearchBox-clearButton,
+      .ms-Button--icon {
+        color: white;
+      }
+
+ 
+  
